@@ -4,6 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>Money-Nic-Extensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Vítor Nicácio</Authors>
+    <icon></icon>
+    <Company>Nicacio</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to conver decimal to integer</Description>
+    <RepositoryUrl>https://github.com/Nicacio11/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Nicacio11/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>download.png</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <ReleaseNotes>Add methods</ReleaseNotes>
+    <Title>Money Extensions</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\download.png" Pack="true" PackagePath="\"></None>
+  </ItemGroup>
 
 </Project>
