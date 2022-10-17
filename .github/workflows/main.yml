@@ -19,8 +19,8 @@ jobs:
         dotnet-version: '6.0.x'
     
     - name: Add Nuget packages
-      run: dotnet nuget add source https://nuget.pkg.github.com/nicacio11/index.json --name github
-      
+      run: dotnet nuget add source https://nuget.pkg.github.com/nicacio11/index.json --name other
+
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
