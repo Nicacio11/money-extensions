@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="github-Nic-Extensions" Version="1.0.2" />
+    <PackageReference Include="github-Nic-Extensions" Version="1.1.2" />
   </ItemGroup>
 
 </Project>
