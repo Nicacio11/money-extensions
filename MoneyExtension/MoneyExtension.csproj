@@ -27,4 +27,8 @@
     <None Include="..\Media\download.png" Pack="true" PackagePath="\"></None>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="github-Nic-Extensions" Version="1.0.2" />
+  </ItemGroup>
+
 </Project>
