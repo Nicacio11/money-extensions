@@ -31,4 +31,4 @@ jobs:
       run: dotnet pack --configuration Release
 
     - name: Publish
-      run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate
